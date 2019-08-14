@@ -46,3 +46,16 @@ const javi = "Javalin";
 console.log(javi.toLocaleUpperCase(),javi.includes("Java"));
 
 //First and Last
+
+
+
+//Concatanation
+let firstName = "Nadia";
+let lastName = "Daruiz";
+let middleName = "Yael";
+console.log(`${firstName} ${middleName} ${lastName}`);
+
+//capatalize
+const fox = "the quick brown fox";
+const firstLetter = "t"
+console.log(fox.toUpperCase());
