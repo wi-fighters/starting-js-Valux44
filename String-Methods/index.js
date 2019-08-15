@@ -46,7 +46,11 @@ const javi = "Javalin";
 console.log(javi.toLocaleUpperCase(),javi.includes("Java"));
 
 //First and Last
-
+const original = "JavaScript";
+const front = original.substring(0,1);
+const back = original.substring(9,10);
+const middle = original.substring(1,9);
+console.log(back+middle+front);
 
 
 //Concatanation
